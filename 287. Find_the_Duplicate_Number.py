@@ -1,6 +1,6 @@
 class Solution:
     def findDuplicate(self, nums: List[int]) -> int:
-        # Phase1:Intersection point
+        # Phase 1: Intersection point
         fast = slow = nums[0]
         while True:
             fast = nums[nums[fast]]
