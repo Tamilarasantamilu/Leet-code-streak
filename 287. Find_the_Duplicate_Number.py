@@ -12,5 +12,4 @@ class Solution:
         while slow != fast:
             fast = nums[fast]
             slow = nums[slow]
-        
         return slow
