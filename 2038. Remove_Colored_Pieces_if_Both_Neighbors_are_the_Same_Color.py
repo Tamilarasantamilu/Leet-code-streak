@@ -7,5 +7,4 @@ class Solution:
                 countAAA += 1
             elif 'B' == a == b == c:
                 countBBB += 1
-
         return countAAA > countBBB
