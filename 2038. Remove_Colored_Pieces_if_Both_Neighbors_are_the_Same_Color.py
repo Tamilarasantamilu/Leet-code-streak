@@ -10,4 +10,3 @@ class Solution:
                 countBBB += 1
 
         return countAAA > countBBB
-        
