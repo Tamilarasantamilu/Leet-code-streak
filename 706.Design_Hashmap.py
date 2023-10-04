@@ -4,9 +4,7 @@ class MyHashMap:
         
     def put(self, key: int, value: int) -> None:
         self.l[key]=value
-
     def get(self, key: int) -> int:
         return self.l[key]
-
     def remove(self, key: int) -> None:
         self.l[key]=-1
