@@ -52,8 +52,7 @@ class Solution:
                         r = p - 1
                     else:
                         l = p + 1
-            return -1
-        
+            return -1  
         climb = search(0, res - 1, True)
         if climb != -1:
             return climb
