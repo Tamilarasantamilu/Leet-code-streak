@@ -14,4 +14,3 @@ class Solution:
                 curr=1
             res +=max(curr, candies[i])
         return res
-        
