@@ -15,6 +15,5 @@ class Solution:
             farthest = max(farthest, i + nums[i])
             if i == end:
                 ans += 1
-                end = farthest
-
+                end = farthest
         return ans if end == n else -1
