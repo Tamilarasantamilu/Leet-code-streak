@@ -24,7 +24,6 @@ class Solution:
                 if j < maxLen - 1:
                     dp[i][j] += dp[i-1][j+1]
                 
-                # Apply modulo to avoid overflow
                 dp[i][j] %= MOD
         
         return dp[steps][0]
