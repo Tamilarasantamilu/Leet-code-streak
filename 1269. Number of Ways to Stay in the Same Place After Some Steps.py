@@ -16,7 +16,7 @@ class Solution:
                 # Stay in the same position
                 dp[i][j] = dp[i-1][j]
                 
-                # Move one step to the left
+               
                 if j > 0:
                     dp[i][j] += dp[i-1][j-1]
                 
