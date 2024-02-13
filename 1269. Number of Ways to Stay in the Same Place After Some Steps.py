@@ -2,7 +2,7 @@ class Solution:
     def numWays(self, steps: int, arrLen: int) -> int:
         MOD = 10**9 + 7
         
-        # To avoid accessing indices out of bounds, we limit the range of `arrLen`.
+       
         maxLen = min(steps//2 + 1, arrLen)
         
         # Initialize a 2D array with all zeros.
@@ -15,8 +15,6 @@ class Solution:
             for j in range(maxLen):
                 # Stay in the same position
                 dp[i][j] = dp[i-1][j]
-                
-               
                 if j > 0:
                     dp[i][j] += dp[i-1][j-1]
                 
