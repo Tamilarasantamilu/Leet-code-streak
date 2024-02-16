@@ -12,3 +12,4 @@ class Solution:
         list_unique.append(val)
     
     return True if (len(dict_occur.values()) == len(list_unique)) else False
+#end
