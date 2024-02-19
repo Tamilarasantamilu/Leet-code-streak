@@ -1,4 +1,4 @@
-class Solution:
+ Solution:
     def mostBooked(self, n: int, meetings: List[List[int]]) -> int:
         meetings.sort()
         openM = [i for i in range(n)]
@@ -26,3 +26,4 @@ class Solution:
                 time += 1
         maxRoom = max(range(n), key=meetingArray.__getitem__)
         return maxRoom
+#endcode
